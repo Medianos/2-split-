@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>projeto softwer</title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="cabecalho">
+        <div id="paginas">
+            <div>
+                <a href="mapa.html">
+                    <h2>Mapa</h2>
+                </a>
+
+            </div>
+            <div><a href="singin.html">
+                    <h2>Login</h2>
+                </a>
+
+            </div>
+            <div><a href="singup.html">
+                    <h2>Cadastro</h2>
+                </a>
+
+            </div>
+            <div> <a href="forms.html">
+                    <h2>Entre em Contato</h2>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Formulário de Contato</h1>
+        <form target="_blank" action="https://api.staticforms.xyz/submit" method="POST">
+            <input type="hidden" name="accessKey" value="aa591b49-a5cb-406a-9249-d38d78c49567">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" target="_blank" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+background-color:#191A1E ;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+    width: 25vw;
+    height: 55vh;
+  background-color: #424449;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 40px #000000
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff
+}
+
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #c0c4cf;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  color: white;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #ffffff;
+}
+
+.label-float label{
+  color: #c0c4cf;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #ffffff
+}
+
+button{
+  width: 15vw;
+  background-color: #b6bed3;
+  color: #1e1d25;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #9ea8c2;
+  color: #fff;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p{
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+
+a{
+  color: #c0c4cf;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+a:hover{
+  color: #272262;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #c0c4cf;
+}
+
+ #msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+#cabecalho {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  background-color: #343a40;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+#paginas {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2%;
+
+
+}
+
+#paginas h2 {
+  margin-left: 40px;
+  transition: 0.4s;
+}
+
+#paginas h2:hover {
+  color: rgb(13, 191, 214);
+  transition: 0.4s;
+
+}
